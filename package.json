@@ -1,0 +1,47 @@
+{
+  "name": "google-calendar-colors",
+  "version": "1.0.0",
+  "description": "Automatically change your event's color based on event's title or description",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svecon/google-calendar-colors.git"
+  },
+  "keywords": [
+    "google",
+    "calendar",
+    "color",
+    "event",
+    "automatic"
+  ],
+  "author": "ond.svec@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svecon/google-calendar-colors/issues"
+  },
+  "jest": {
+    "verbose": true,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      ".git"
+    ]
+  },
+  "homepage": "https://github.com/svecon/google-calendar-colors#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.0-beta",
+    "expose-loader": "^0.7.5",
+    "gas-webpack-plugin": "^0.3.0",
+    "jest": "^23.1.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/register": "^7.0.0-beta.49",
+    "lodash": "^4.17.10"
+  }
+}

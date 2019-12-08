@@ -1,1 +1,3 @@
 .clasp.json
+.cache
+node_modules

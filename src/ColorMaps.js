@@ -35,6 +35,36 @@ function categoryToColor(category) {
 
 function titleToCategory(title) {
   var titleToCategoryDict = {
+    'Bouldering': 'Sports',
+    'Breakfast': 'Food',
+    'Chinese': 'Learning',
+    'Chocolate tasting': 'Relax',
+    'Commute': 'Commute',
+    'Dinner': 'Food',
+    'Emails, news, Facebook': 'Relax',
+    'Exercise - stretching': 'Sports',
+    'Fun': 'Fun',
+    'German': 'Learning',
+    'German homeworks': 'Learning',
+    'German lesson': 'Learning',
+    'German test': 'Learning',
+    'Google App Scripts - Calendar colors': 'Programming',
+    'Learning - Wim Hof': 'Learning',
+    'Lunch': 'Food',
+    'Meditation + Breathing': 'Relax',
+    'Meditation + Breathing + Cold Shower': 'Relax',
+    'Nap': 'Relax',
+    'News': 'Fun',
+    'Planning': 'Planning',
+    'Programming': 'Programming',
+    'Reading News': 'Fun',
+    'Reading news': 'Fun',
+    'Relax': 'Relax',
+    'Running': 'Sports',
+    'Sleep': 'Sleep',
+    'Work': 'Work',
+    'Writing conference paper': 'Learning',
+    'Xiao': 'Socializing',
   };
   return titleToCategoryDict[title];
 }
